@@ -1,0 +1,31 @@
+{
+  "name": "chatshot",
+  "version": "0.1.0",
+  "description": "Generate realistic WhatsApp conversation screenshots for sales demos",
+  "main": "src/index.js",
+  "bin": {
+    "chatshot": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js --help"
+  },
+  "keywords": [
+    "whatsapp",
+    "screenshot",
+    "mockup",
+    "cli",
+    "demo"
+  ],
+  "author": "tinkeringmachines",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "handlebars": "^4.7.8",
+    "puppeteer-core": "^22.0.0",
+    "yaml": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
