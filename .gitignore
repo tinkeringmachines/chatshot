@@ -4,3 +4,4 @@ output/
 *.jpg
 .env
 .DS_Store
+demo.yaml
