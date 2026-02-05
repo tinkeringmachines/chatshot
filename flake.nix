@@ -25,6 +25,7 @@
               src = self;
 
               npmDepsHash = "sha256-7E5lPB+XjrcVLusD67JsRQtX4Nqmi+zCMm3/qSgycrE=";
+              dontNpmBuild = true;  # No build step needed
 
               nativeBuildInputs = [ pkgs.makeWrapper ];
               buildInputs = [ pkgs.chromium ];
@@ -62,6 +63,7 @@
             src = ./.;
 
             npmDepsHash = "sha256-7E5lPB+XjrcVLusD67JsRQtX4Nqmi+zCMm3/qSgycrE=";
+            dontNpmBuild = true;  # No build step needed
 
             nativeBuildInputs = [ pkgs.makeWrapper ];
             buildInputs = [ pkgs.chromium ];
